@@ -16,5 +16,16 @@
   "title": "Your ontology is now a semantic model so what is inside a Fabric ontology and how do you ship it?",
   "source": "Medium",
   "kind": "Read of the day"
+ },
+ {
+  "date": "2026-11-16",
+  "kind": "Read of the day",
+  "source": "Medium",
+  "title": "Broadcast Join vs Shuffle Join Explained — Apache Spark Optimization with Real Examples",
+  "url": "https://medium.com/@pranjalpatle4/broadcast-join-vs-shuffle-join-explained-apache-spark-optimization-with-real-examples-6a8a5828a70c",
+  "author": "Pranjalpatle",
+  "brief": "Apache Spark joins are among the most expensive operations in a Spark job. Continue reading on Medium »",
+  "fact_topic": "Azure Data Factory",
+  "fact": "Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event."
  }
 ]
