@@ -1,21 +1,16 @@
 # ✧ Daily Data Engineering Facts
 
-A new fact every day on **PySpark & Spark internals, Delta Lake, Azure Data Factory, Microsoft Fabric** and SQL, plus the interview questions that come up again and again.
+Every morning this repo picks a fresh **article or interview question** on **PySpark & Spark internals, Delta Lake, Azure Data Factory, Microsoft Fabric** and Databricks from **Medium, Hashnode and dev.to**, plus a quick fact.
 Updated automatically by GitHub Actions at 06:00 IST.
 
-## Today's fact
+## Today's pick
 
 <!-- FACT:START -->
-### ✧ Azure Data Factory
-
-> Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
-
-<sub>Fact #48 of 68 · updated 2026-11-16</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./fact.svg" alt="Today's data engineering fact" width="600"/>
+<img src="./fact.svg" alt="Today's data engineering pick" width="600"/>
 
 Embed it anywhere (e.g. your profile README):
 
@@ -25,8 +20,11 @@ Embed it anywhere (e.g. your profile README):
 
 ## How it works
 
-- `update_fact.py` holds the fact bank and picks one by date, so it's a new fact each day.
-- `.github/workflows/daily-fact.yml` runs it every morning and commits the updated `README.md` and `fact.svg`.
-- No API keys and no cost. To add facts, append to `FACTS` in `update_fact.py`.
+- `daily_pick.py` reads Medium tag feeds, the dev.to API and the Hashnode API, keeps only relevant posts, and picks one. Odd days favour interview questions, even days favour articles.
+- `history.json` remembers every pick so nothing repeats.
+- If all sources are down, it falls back to the built-in fact bank in `update_fact.py`.
+- No API keys and no cost. Change topics by editing the tag lists at the top of `daily_pick.py`.
+
+All articles belong to their authors; this repo only links to them.
 
 Run it now: **Actions → Daily fact → Run workflow**.
