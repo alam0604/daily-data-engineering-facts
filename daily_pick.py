@@ -13,6 +13,7 @@ import json
 import random
 import re
 import textwrap
+import time
 import urllib.request
 import xml.etree.ElementTree as ET
 
@@ -28,6 +29,9 @@ HASHNODE_TAGS = ["pyspark", "apache-spark", "databricks", "data-engineering", "a
 RELEVANT = re.compile(
     r"spark|pyspark|databricks|data ?factory|\badf\b|fabric|onelake|delta|lakehouse|"
     r"synapse|etl|elt|data engineer|parquet|medallion|sql", re.I)
+SPAM = re.compile(
+    r"course|training|institute|certification|classes|coaching|tutorial in|online demo|free demo|"
+    r"enrol|placement|hiring|\bjobs?\b|salary|\bin (chennai|hyderabad|bangalore|bengaluru|pune|ameerpet|noida)", re.I)
 QUESTION = re.compile(r"interview|question|\bq&a\b|asked", re.I)
 HISTORY_FILE = "history.json"
 
@@ -75,6 +79,8 @@ def from_devto():
         except Exception as e:
             print(f"devto/{tag}: {e}")
             continue
+        finally:
+            time.sleep(1.5)
         for p in posts:
             out.append({
                 "source": "dev.to",
@@ -88,16 +94,19 @@ def from_devto():
 
 def from_hashnode():
     out = []
-    q = """query($slug: String!) { tag(slug: $slug) { posts(first: 20, filter: {sortBy: popular}) {
-             edges { node { title url brief author { name } } } } } }"""
+    hdr = {"Content-Type": "application/json", "Accept": "application/json",
+           "User-Agent": "daily-data-engineering-facts/1.0"}
     for tag in HASHNODE_TAGS:
+        raw = b""
         try:
-            body = json.dumps({"query": q, "variables": {"slug": tag}}).encode()
-            res = json.loads(get("https://gql.hashnode.com", data=body,
-                                 headers={"Content-Type": "application/json"}))
+            body = json.dumps({"query": TAG_POSTS, "variables": {"slug": tag}}).encode()
+            raw = get("https://gql.hashnode.com/", data=body, headers=hdr)
+            res = json.loads(raw)
+            if res.get("errors"):
+                print(f"hashnode/{tag}: {res['errors'][0].get('message')}")
             edges = (((res.get("data") or {}).get("tag") or {}).get("posts") or {}).get("edges", [])
         except Exception as e:
-            print(f"hashnode/{tag}: {e}")
+            print(f"hashnode/{tag}: {e} | response starts: {raw[:150]!r}")
             continue
         for e in edges:
             n = e["node"]
@@ -109,6 +118,10 @@ def from_hashnode():
                 "brief": clean(n.get("brief")),
             })
     return out
+
+
+TAG_POSTS = """query($slug: String!) { tag(slug: $slug) { posts(first: 20, filter: {sortBy: popular}) {
+  edges { node { title url brief author { name } } } } } }"""
 
 
 def load_history():
@@ -123,7 +136,8 @@ def pick(posts, history, today):
     seen = {h["url"] for h in history}
     uniq = {}
     for p in posts:
-        if p["url"] and p["title"] and p["url"] not in seen and RELEVANT.search(p["title"] + " " + p["brief"]):
+        if p["url"] and p["title"] and p["url"] not in seen and RELEVANT.search(p["title"] + " " + p["brief"]) \
+                and not SPAM.search(p["title"]):
             uniq.setdefault(p["url"], p)
     pool = list(uniq.values())
     if not pool:
