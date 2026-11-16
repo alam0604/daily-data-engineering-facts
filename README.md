@@ -21,7 +21,7 @@ Updated automatically by GitHub Actions at 06:00 IST.
 
 ## As a card
 
-<img src="./cards/2026-11-16-36f617.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-16-7dba5d.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
