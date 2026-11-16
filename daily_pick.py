@@ -11,6 +11,7 @@ from Medium, Hashnode and dev.to, and writes it to README.md and fact.svg.
 - If every source fails, it falls back to the built-in fact bank in update_fact.py.
 """
 import datetime
+import hashlib
 import html
 import json
 import os
@@ -256,14 +257,14 @@ def main():
         f.write(svg)
     # a dated copy too: a new file name each day can never be served from a stale cache
     os.makedirs("cards", exist_ok=True)
-    card = f"cards/{today.isoformat()}.svg"
+    card = f"cards/{today.isoformat()}-{hashlib.sha1(svg.encode()).hexdigest()[:6]}.svg"
     with open(card, "w", encoding="utf-8") as f:
         f.write(svg)
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
     readme = re.sub(re.escape(MARK_START) + r".*?" + re.escape(MARK_END),
                     lambda _: block, readme, flags=re.S)
-    readme = re.sub(r'src="\./(fact|cards/[\d-]+)\.svg"', f'src="./{card}"', readme)
+    readme = re.sub(r'src="\./(fact|cards/[\w-]+)\.svg"', f'src="./{card}"', readme)
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)
 
