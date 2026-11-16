@@ -10,9 +10,9 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[Delta Lake Deep Dive: Building a Production-Ready Lakehouse Architecture with Apache Spark…](https://medium.com/@amitpagrahari/delta-lake-deep-dive-building-a-production-ready-lakehouse-architecture-with-apache-spark-f3f26e013c55)** by Amitpagrahari · *Medium*
+**[You Added df.cache() to Make Spark Faster. You Probably Made It Slower.](https://medium.com/datawisecode/you-added-df-cache-to-make-spark-faster-you-probably-made-it-slower-313f17a77555)** by Dipak Shaw · *Medium*
 
-> A practical guide to Delta Lake, transaction management, data consistency, streaming, CDC, performance optimization, architecture patterns… Continue reading on Medium »
+> Why Spark caching can prevent useful optimizations, increase memory pressure, and make your job slower. Continue reading on DataWiseCode »
 
 **Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
 
@@ -21,7 +21,7 @@ Updated automatically by GitHub Actions at 06:00 IST.
 
 ## As a card
 
-<img src="./cards/2026-11-16.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-16-36f617.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

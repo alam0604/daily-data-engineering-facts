@@ -34,5 +34,11 @@
   "url": "https://medium.com/@amitpagrahari/delta-lake-deep-dive-building-a-production-ready-lakehouse-architecture-with-apache-spark-f3f26e013c55",
   "title": "Delta Lake Deep Dive: Building a Production-Ready Lakehouse Architecture with Apache Spark…",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-16",
+  "url": "https://medium.com/datawisecode/you-added-df-cache-to-make-spark-faster-you-probably-made-it-slower-313f17a77555",
+  "title": "You Added df.cache() to Make Spark Faster. You Probably Made It Slower.",
+  "source": "Medium"
  }
 ]

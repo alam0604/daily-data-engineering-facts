@@ -4,8 +4,8 @@
   <rect x="0.5" y="0.5" width="999" height="202" rx="14" fill="url(#g)" stroke="#6366f1" stroke-opacity="0.5"/>
   <text x="32" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#a5b4fc" letter-spacing="1.5">✧ READ OF THE DAY · MEDIUM</text>
   <text x="968" y="34" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#64748b">16 Nov 2026</text>
-  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f1f5f9">Delta Lake Deep Dive: Building a Production-Ready Lakehouse Architecture with Apache Spark…</text>
-  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">by Amitpagrahari</text>
+  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f1f5f9">You Added df.cache() to Make Spark Faster. You Probably Made It Slower.</text>
+  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">by Dipak Shaw</text>
   <line x1="32" y1="109" x2="968" y2="109" stroke="#6366f1" stroke-opacity="0.35"/>
   <text x="32" y="133" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#a5b4fc" letter-spacing="1.5">QUICK FACT · AZURE DATA FACTORY</text>
   <text x="32" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event</text>
