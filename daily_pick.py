@@ -184,27 +184,27 @@ def render_svg(label, title, sub, today, fact_topic=None, fact=None):
     y = 68
     parts = []
     for l in t_lines:
-        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="19" font-weight="600" fill="#f1f5f9">{html.escape(l)}</text>')
+        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="19" font-weight="600" fill="#3b1a6b">{html.escape(l)}</text>')
         y += 25
     if sub:
-        parts.append(f'<text x="32" y="{y - 3}" font-family="{font}" font-size="12" fill="#94a3b8">{html.escape(sub)}</text>')
+        parts.append(f'<text x="32" y="{y - 3}" font-family="{font}" font-size="12" fill="#8a6bbf">{html.escape(sub)}</text>')
         y += 16
     if f_lines:
-        parts.append(f'<line x1="32" y1="{y}" x2="{W - 32}" y2="{y}" stroke="#6366f1" stroke-opacity="0.35"/>')
+        parts.append(f'<line x1="32" y1="{y}" x2="{W - 32}" y2="{y}" stroke="#b9a2ee"/>')
         y += 24
-        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="12" fill="#a5b4fc" letter-spacing="1.5">QUICK FACT · {html.escape((fact_topic or "").upper())}</text>')
+        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="12" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">QUICK FACT · {html.escape((fact_topic or "").upper())}</text>')
         y += 22
         for l in f_lines:
-            parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="14" fill="#e2e8f0">{html.escape(l)}</text>')
+            parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="14" fill="#4c2a85">{html.escape(l)}</text>')
             y += 20
     height = y + 8
     body = "\n  ".join(parts)
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
-  <rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="14" fill="url(#g)" stroke="#6366f1" stroke-opacity="0.5"/>
-  <text x="32" y="34" font-family="{font}" font-size="13" fill="#a5b4fc" letter-spacing="1.5">✧ {html.escape(label.upper())}</text>
-  <text x="{W - 32}" y="34" text-anchor="end" font-family="{font}" font-size="11" fill="#64748b">{today.strftime('%d %b %Y')}</text>
+    <stop offset="0" stop-color="#f5f0ff"/><stop offset="1" stop-color="#e6d9fc"/></linearGradient></defs>
+  <rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="14" fill="url(#g)" stroke="#c4b0f5"/>
+  <text x="32" y="34" font-family="{font}" font-size="13" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">✧ {html.escape(label.upper())}</text>
+  <text x="{W - 32}" y="34" text-anchor="end" font-family="{font}" font-size="11" fill="#9b84c9">{today.strftime('%d %b %Y')}</text>
   {body}
 </svg>
 """
@@ -217,7 +217,17 @@ def main():
     print("fetched:", counts)
 
     history = load_history()
-    post = pick(posts, history, today)
+    # Re-running on the same day keeps today's pick (just re-renders it).
+    try:
+        with open(TODAY_FILE, encoding="utf-8") as f:
+            prev = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        prev = {}
+    rerun = prev.get("date") == today.isoformat() and prev.get("url")
+    if rerun:
+        post = {k: prev.get(k, "") for k in ("source", "title", "url", "author", "brief")}
+    else:
+        post = pick(posts, history, today)
     idx, (topic, fact) = todays_fact(today)
 
     if post:
@@ -234,10 +244,11 @@ def main():
         )
         svg = render_svg(f"{kind} · {post['source']}", post["title"],
                          f"by {post['author']}" if post["author"] else post["source"], today, topic, fact)
-        history.append({"date": today.isoformat(), "url": post["url"], "title": post["title"],
-                        "source": post["source"]})
-        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history, f, indent=1, ensure_ascii=False)
+        if not rerun:
+            history.append({"date": today.isoformat(), "url": post["url"], "title": post["title"],
+                            "source": post["source"]})
+            with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+                json.dump(history, f, indent=1, ensure_ascii=False)
         record = {"date": today.isoformat(), "kind": kind, **post}
         print(f"picked (score {score(post)}): [{post['source']}] {post['title']} {post['url']}")
     else:
