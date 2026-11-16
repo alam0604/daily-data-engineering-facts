@@ -1,0 +1,11 @@
+{
+ "date": "2026-11-16",
+ "kind": "Read of the day",
+ "source": "Medium",
+ "title": "From SQL Server to Microsoft Fabric and Databricks: Are We Really Modernising Data or Just…",
+ "url": "https://medium.com/@hansonolatunde/from-sql-server-to-microsoft-fabric-and-databricks-are-we-really-modernising-data-or-just-f1efba64d6cb",
+ "author": "Hanson Olatunde",
+ "brief": "Why the best data architecture is not necessarily the newest and what organisations should consider before migrating. Continue reading on Medium »",
+ "fact_topic": "Azure Data Factory",
+ "fact": "Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event."
+}

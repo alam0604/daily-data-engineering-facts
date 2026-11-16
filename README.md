@@ -8,6 +8,15 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
+### ✧ Read of the day
+
+**[From SQL Server to Microsoft Fabric and Databricks: Are We Really Modernising Data or Just…](https://medium.com/@hansonolatunde/from-sql-server-to-microsoft-fabric-and-databricks-are-we-really-modernising-data-or-just-f1efba64d6cb)** by Hanson Olatunde · *Medium*
+
+> Why the best data architecture is not necessarily the newest and what organisations should consider before migrating. Continue reading on Medium »
+
+**Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
+
+<sub>updated 2026-11-16</sub>
 <!-- FACT:END -->
 
 ## As a card
