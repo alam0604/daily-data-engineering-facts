@@ -4,7 +4,8 @@ from Medium, Hashnode and dev.to, and writes it to README.md and fact.svg.
 - Sources: Medium tag RSS feeds, dev.to public API, Hashnode public GraphQL API.
 - Only posts that mention Spark / PySpark / ADF / Fabric / Delta / Databricks etc. are kept.
 - Odd days prefer interview-question posts; even days prefer everything else.
-- history.json remembers what was already shown, so nothing repeats.
+- history.json remembers what was already shown, so nothing repeats (never trimmed).
+- today.json holds today's full pick; archive_fact.py (second workflow) files it under archive/.
 - If every source fails, it falls back to the built-in fact bank in update_fact.py.
 """
 import datetime
@@ -34,6 +35,7 @@ SPAM = re.compile(
     r"enrol|placement|hiring|\bjobs?\b|salary|\bin (chennai|hyderabad|bangalore|bengaluru|pune|ameerpet|noida)", re.I)
 QUESTION = re.compile(r"interview|question|\bq&a\b|asked", re.I)
 HISTORY_FILE = "history.json"
+TODAY_FILE = "today.json"
 
 
 def get(url, data=None, headers=None, timeout=20):
@@ -193,7 +195,8 @@ def main():
         history.append({"date": today.isoformat(), "url": post["url"], "title": post["title"],
                         "source": post["source"]})
         with open(HISTORY_FILE, "w", encoding="utf-8") as f:
-            json.dump(history[-1000:], f, indent=1, ensure_ascii=False)
+            json.dump(history, f, indent=1, ensure_ascii=False)
+        record = {"date": today.isoformat(), "kind": kind, **post}
         print(f"picked: [{post['source']}] {post['title']} {post['url']}")
     else:
         print("no posts fetched, using built-in fact")
@@ -202,6 +205,11 @@ def main():
             f"<sub>updated {today.isoformat()}</sub>\n{MARK_END}"
         )
         svg = render_svg(f"Daily data engineering fact · {topic}", fact, "built-in fact", today)
+        record = {"date": today.isoformat(), "kind": "Fact of the day"}
+
+    record.update({"fact_topic": topic, "fact": fact})
+    with open(TODAY_FILE, "w", encoding="utf-8") as f:
+        json.dump(record, f, indent=1, ensure_ascii=False)
 
     with open("fact.svg", "w", encoding="utf-8") as f:
         f.write(svg)
