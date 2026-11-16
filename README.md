@@ -6,6 +6,11 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's fact
 
 <!-- FACT:START -->
+### ✧ Azure Data Factory
+
+> Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
+
+<sub>Fact #48 of 68 · updated 2026-11-16</sub>
 <!-- FACT:END -->
 
 ## As a card
