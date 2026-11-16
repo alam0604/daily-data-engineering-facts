@@ -3,6 +3,6 @@
     <stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
   <rect width="600" height="172" rx="14" fill="url(#g)" stroke="#6366f1" stroke-opacity="0.5"/>
   <text x="32" y="40" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" fill="#a5b4fc" letter-spacing="1.5">✧ READ OF THE DAY · MEDIUM</text>
-  <text x="32" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f1f5f9"><tspan x="32" dy="0">Microsoft Azure Data Engineering | Course In</tspan><tspan x="32" dy="26">Chennai</tspan></text>
-  <text x="32" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">naveenk visualpath · 16 Nov 2026</text>
+  <text x="32" y="78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#f1f5f9"><tspan x="32" dy="0">Your ontology is now a semantic model so what is</tspan><tspan x="32" dy="26">inside a Fabric ontology and how do you ship it?</tspan></text>
+  <text x="32" y="146" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#94a3b8">Richard Conway · 16 Nov 2026</text>
 </svg>

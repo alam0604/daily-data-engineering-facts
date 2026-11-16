@@ -8,9 +8,9 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[Microsoft Azure Data Engineering | Course In Chennai](https://medium.com/@naveenkvisualpath/microsoft-azure-data-engineering-course-in-chennai-48b7889c8aa7)** by naveenk visualpath · *Medium*
+**[Your ontology is now a semantic model so what is inside a Fabric ontology and how do you ship it?](https://medium.com/data-science-collective/your-ontology-is-now-a-semantic-model-so-what-is-inside-a-fabric-ontology-and-how-do-you-ship-it-35ec7049f96c)** by Richard Conway · *Medium*
 
-> How to Build a Metadata-Driven Framework in Azure Data Factory? Continue reading on Medium »
+> In the last article I built an ontology for Evil Litigators LLP. I generated it from the semantic model, used the ontology agent to rename… Continue reading on Data Science Collective »
 
 **Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
 
