@@ -21,12 +21,12 @@ Updated automatically by GitHub Actions at 06:00 IST.
 
 ## As a card
 
-<img src="./cards/2026-11-16.svg" alt="Today's data engineering pick" width="600"/>
+<img src="./cards/2026-11-16.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
 ```md
-<img src="https://raw.githubusercontent.com/alam0604/daily-data-engineering-facts/main/fact.svg" width="600"/>
+<img src="https://raw.githubusercontent.com/alam0604/daily-data-engineering-facts/main/fact.svg" width="100%"/>
 ```
 
 ## How it works
