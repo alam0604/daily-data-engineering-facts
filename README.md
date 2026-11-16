@@ -10,9 +10,9 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[From SQL Server to Microsoft Fabric and Databricks: Are We Really Modernising Data or Just…](https://medium.com/@hansonolatunde/from-sql-server-to-microsoft-fabric-and-databricks-are-we-really-modernising-data-or-just-f1efba64d6cb)** by Hanson Olatunde · *Medium*
+**[Broadcast Join vs Shuffle Join Explained — Apache Spark Optimization with Real Examples](https://medium.com/@pranjalpatle4/broadcast-join-vs-shuffle-join-explained-apache-spark-optimization-with-real-examples-6a8a5828a70c)** by Pranjalpatle · *Medium*
 
-> Why the best data architecture is not necessarily the newest and what organisations should consider before migrating. Continue reading on Medium »
+> Apache Spark joins are among the most expensive operations in a Spark job. Continue reading on Medium »
 
 **Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
 
