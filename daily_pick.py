@@ -175,34 +175,36 @@ def pick(posts, history, today):
 
 
 def render_svg(label, title, sub, today, fact_topic=None, fact=None):
+    # Wide and short: meant to be shown at width="100%".
+    W = 1000
     font = "Segoe UI, Helvetica, Arial, sans-serif"
-    t_lines = textwrap.wrap(title, width=52)[:3]
-    f_lines = textwrap.wrap(fact, width=72)[:6] if fact else []
-    y = 78
+    t_lines = textwrap.wrap(title, width=95)[:2 if fact else 4]
+    f_lines = textwrap.wrap(fact, width=140)[:4] if fact else []
+    y = 68
     parts = []
     for l in t_lines:
         parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="19" font-weight="600" fill="#f1f5f9">{html.escape(l)}</text>')
-        y += 26
+        y += 25
     if sub:
-        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="12" fill="#94a3b8">{html.escape(sub)}</text>')
-        y += 22
+        parts.append(f'<text x="32" y="{y - 3}" font-family="{font}" font-size="12" fill="#94a3b8">{html.escape(sub)}</text>')
+        y += 16
     if f_lines:
-        parts.append(f'<line x1="32" y1="{y}" x2="568" y2="{y}" stroke="#6366f1" stroke-opacity="0.35"/>')
-        y += 26
-        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="12" fill="#a5b4fc" letter-spacing="1.5">QUICK FACT · {html.escape((fact_topic or "").upper())}</text>')
+        parts.append(f'<line x1="32" y1="{y}" x2="{W - 32}" y2="{y}" stroke="#6366f1" stroke-opacity="0.35"/>')
         y += 24
+        parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="12" fill="#a5b4fc" letter-spacing="1.5">QUICK FACT · {html.escape((fact_topic or "").upper())}</text>')
+        y += 22
         for l in f_lines:
             parts.append(f'<text x="32" y="{y}" font-family="{font}" font-size="14" fill="#e2e8f0">{html.escape(l)}</text>')
             y += 20
-    height = y + 30
+    height = y + 8
     body = "\n  ".join(parts)
-    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="600" height="{height}" viewBox="0 0 600 {height}">
+    return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{height}" viewBox="0 0 {W} {height}">
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#1e1b4b"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
-  <rect width="600" height="{height}" rx="14" fill="url(#g)" stroke="#6366f1" stroke-opacity="0.5"/>
-  <text x="32" y="40" font-family="{font}" font-size="13" fill="#a5b4fc" letter-spacing="1.5">✧ {html.escape(label.upper())}</text>
+  <rect x="0.5" y="0.5" width="{W - 1}" height="{height - 1}" rx="14" fill="url(#g)" stroke="#6366f1" stroke-opacity="0.5"/>
+  <text x="32" y="34" font-family="{font}" font-size="13" fill="#a5b4fc" letter-spacing="1.5">✧ {html.escape(label.upper())}</text>
+  <text x="{W - 32}" y="34" text-anchor="end" font-family="{font}" font-size="11" fill="#64748b">{today.strftime('%d %b %Y')}</text>
   {body}
-  <text x="568" y="{height - 14}" text-anchor="end" font-family="{font}" font-size="10" fill="#64748b">{today.strftime('%d %b %Y')} · daily-data-engineering-facts</text>
 </svg>
 """
 
