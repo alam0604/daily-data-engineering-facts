@@ -13,6 +13,7 @@ from Medium, Hashnode and dev.to, and writes it to README.md and fact.svg.
 import datetime
 import html
 import json
+import os
 import random
 import re
 import textwrap
@@ -251,10 +252,16 @@ def main():
 
     with open("fact.svg", "w", encoding="utf-8") as f:
         f.write(svg)
+    # a dated copy too: a new file name each day can never be served from a stale cache
+    os.makedirs("cards", exist_ok=True)
+    card = f"cards/{today.isoformat()}.svg"
+    with open(card, "w", encoding="utf-8") as f:
+        f.write(svg)
     with open("README.md", encoding="utf-8") as f:
         readme = f.read()
     readme = re.sub(re.escape(MARK_START) + r".*?" + re.escape(MARK_END),
                     lambda _: block, readme, flags=re.S)
+    readme = re.sub(r'src="\./(fact|cards/[\d-]+)\.svg"', f'src="./{card}"', readme)
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(readme)
 
