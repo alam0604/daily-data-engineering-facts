@@ -1,11 +1,11 @@
 {
  "date": "2026-11-16",
  "kind": "Read of the day",
- "source": "dev.to",
- "title": "Delta Lake Table Maintenance on Databricks: OPTIMIZE, Z-ORDER vs Liquid Clustering, and VACUUM",
- "url": "https://dev.to/karanpulyala/delta-lake-table-maintenance-on-databricks-optimize-z-order-vs-liquid-clustering-and-vacuum-4211",
- "author": "Karan Pulyala",
- "brief": "Most Delta tables don't get slow because of one bad query. They get slow because nobody looks after...",
+ "source": "Medium",
+ "title": "Delta Lake Deep Dive: Building a Production-Ready Lakehouse Architecture with Apache Spark…",
+ "url": "https://medium.com/@amitpagrahari/delta-lake-deep-dive-building-a-production-ready-lakehouse-architecture-with-apache-spark-f3f26e013c55",
+ "author": "Amitpagrahari",
+ "brief": "A practical guide to Delta Lake, transaction management, data consistency, streaming, CDC, performance optimization, architecture patterns… Continue reading on Medium »",
  "fact_topic": "Azure Data Factory",
  "fact": "Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event."
 }

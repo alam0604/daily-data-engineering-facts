@@ -10,9 +10,9 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[Delta Lake Table Maintenance on Databricks: OPTIMIZE, Z-ORDER vs Liquid Clustering, and VACUUM](https://dev.to/karanpulyala/delta-lake-table-maintenance-on-databricks-optimize-z-order-vs-liquid-clustering-and-vacuum-4211)** by Karan Pulyala · *dev.to*
+**[Delta Lake Deep Dive: Building a Production-Ready Lakehouse Architecture with Apache Spark…](https://medium.com/@amitpagrahari/delta-lake-deep-dive-building-a-production-ready-lakehouse-architecture-with-apache-spark-f3f26e013c55)** by Amitpagrahari · *Medium*
 
-> Most Delta tables don't get slow because of one bad query. They get slow because nobody looks after...
+> A practical guide to Delta Lake, transaction management, data consistency, streaming, CDC, performance optimization, architecture patterns… Continue reading on Medium »
 
 **Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
 
