@@ -6,6 +6,15 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
+### ✧ Read of the day
+
+**[Microsoft Azure Data Engineering | Course In Chennai](https://medium.com/@naveenkvisualpath/microsoft-azure-data-engineering-course-in-chennai-48b7889c8aa7)** by naveenk visualpath · *Medium*
+
+> How to Build a Metadata-Driven Framework in Azure Data Factory? Continue reading on Medium »
+
+**Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
+
+<sub>updated 2026-11-16</sub>
 <!-- FACT:END -->
 
 ## As a card
