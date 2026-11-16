@@ -10,9 +10,9 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[Broadcast Join vs Shuffle Join Explained — Apache Spark Optimization with Real Examples](https://medium.com/@pranjalpatle4/broadcast-join-vs-shuffle-join-explained-apache-spark-optimization-with-real-examples-6a8a5828a70c)** by Pranjalpatle · *Medium*
+**[Delta Lake Table Maintenance on Databricks: OPTIMIZE, Z-ORDER vs Liquid Clustering, and VACUUM](https://dev.to/karanpulyala/delta-lake-table-maintenance-on-databricks-optimize-z-order-vs-liquid-clustering-and-vacuum-4211)** by Karan Pulyala · *dev.to*
 
-> Apache Spark joins are among the most expensive operations in a Spark job. Continue reading on Medium »
+> Most Delta tables don't get slow because of one bad query. They get slow because nobody looks after...
 
 **Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
 
@@ -21,7 +21,7 @@ Updated automatically by GitHub Actions at 06:00 IST.
 
 ## As a card
 
-<img src="./fact.svg" alt="Today's data engineering pick" width="600"/>
+<img src="./cards/2026-11-16.svg" alt="Today's data engineering pick" width="600"/>
 
 Embed it anywhere (e.g. your profile README):
 

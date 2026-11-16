@@ -1,11 +1,11 @@
 {
  "date": "2026-11-16",
  "kind": "Read of the day",
- "source": "Medium",
- "title": "Broadcast Join vs Shuffle Join Explained — Apache Spark Optimization with Real Examples",
- "url": "https://medium.com/@pranjalpatle4/broadcast-join-vs-shuffle-join-explained-apache-spark-optimization-with-real-examples-6a8a5828a70c",
- "author": "Pranjalpatle",
- "brief": "Apache Spark joins are among the most expensive operations in a Spark job. Continue reading on Medium »",
+ "source": "dev.to",
+ "title": "Delta Lake Table Maintenance on Databricks: OPTIMIZE, Z-ORDER vs Liquid Clustering, and VACUUM",
+ "url": "https://dev.to/karanpulyala/delta-lake-table-maintenance-on-databricks-optimize-z-order-vs-liquid-clustering-and-vacuum-4211",
+ "author": "Karan Pulyala",
+ "brief": "Most Delta tables don't get slow because of one bad query. They get slow because nobody looks after...",
  "fact_topic": "Azure Data Factory",
  "fact": "Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event."
 }

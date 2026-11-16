@@ -22,5 +22,11 @@
   "url": "https://medium.com/@pranjalpatle4/broadcast-join-vs-shuffle-join-explained-apache-spark-optimization-with-real-examples-6a8a5828a70c",
   "title": "Broadcast Join vs Shuffle Join Explained — Apache Spark Optimization with Real Examples",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-16",
+  "url": "https://dev.to/karanpulyala/delta-lake-table-maintenance-on-databricks-optimize-z-order-vs-liquid-clustering-and-vacuum-4211",
+  "title": "Delta Lake Table Maintenance on Databricks: OPTIMIZE, Z-ORDER vs Liquid Clustering, and VACUUM",
+  "source": "dev.to"
  }
 ]
