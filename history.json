@@ -40,5 +40,11 @@
   "url": "https://medium.com/datawisecode/you-added-df-cache-to-make-spark-faster-you-probably-made-it-slower-313f17a77555",
   "title": "You Added df.cache() to Make Spark Faster. You Probably Made It Slower.",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-17",
+  "url": "https://medium.com/@poojatripathi0697/top-50-apache-spark-interview-questions-and-answers-for-data-engineers-2f4428d1537a",
+  "title": "Top 50 Apache Spark Interview Questions and Answers for Data Engineers",
+  "source": "Medium"
  }
 ]

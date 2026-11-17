@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Read of the day
+### ✧ Interview question of the day
 
-**[You Added df.cache() to Make Spark Faster. You Probably Made It Slower.](https://medium.com/datawisecode/you-added-df-cache-to-make-spark-faster-you-probably-made-it-slower-313f17a77555)** by Dipak Shaw · *Medium*
+**[Top 50 Apache Spark Interview Questions and Answers for Data Engineers](https://medium.com/@poojatripathi0697/top-50-apache-spark-interview-questions-and-answers-for-data-engineers-2f4428d1537a)** by Kaizen · *Medium*
 
-> Why Spark caching can prevent useful optimizations, increase memory pressure, and make your job slower. Continue reading on DataWiseCode »
+> A practical interview preparation guide based on my Data Engineering interview experiences Continue reading on Medium »
 
-**Quick fact (Azure Data Factory):** Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event.
+**Quick fact (Azure Data Factory):** Mapping Data Flows run on Spark clusters managed by ADF. They are visual and need no code, but each run pays for cluster start-up unless you set a TTL to keep it warm.
 
-<sub>updated 2026-11-16</sub>
+<sub>updated 2026-11-17</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-16-7dba5d.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-17-61717a.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
