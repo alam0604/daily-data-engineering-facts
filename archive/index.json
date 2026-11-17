@@ -60,5 +60,16 @@
   "brief": "Why Spark caching can prevent useful optimizations, increase memory pressure, and make your job slower. Continue reading on DataWiseCode »",
   "fact_topic": "Azure Data Factory",
   "fact": "Triggers: Schedule (wall-clock), Tumbling window (fixed, non-overlapping intervals with backfill, retry and dependencies), Storage event (blob created/deleted), and Custom event."
+ },
+ {
+  "date": "2026-11-17",
+  "kind": "Interview question of the day",
+  "source": "Medium",
+  "title": "Top 50 Apache Spark Interview Questions and Answers for Data Engineers",
+  "url": "https://medium.com/@poojatripathi0697/top-50-apache-spark-interview-questions-and-answers-for-data-engineers-2f4428d1537a",
+  "author": "Kaizen",
+  "brief": "A practical interview preparation guide based on my Data Engineering interview experiences Continue reading on Medium »",
+  "fact_topic": "Azure Data Factory",
+  "fact": "Mapping Data Flows run on Spark clusters managed by ADF. They are visual and need no code, but each run pays for cluster start-up unless you set a TTL to keep it warm."
  }
 ]
