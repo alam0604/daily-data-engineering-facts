@@ -71,5 +71,16 @@
   "brief": "A practical interview preparation guide based on my Data Engineering interview experiences Continue reading on Medium »",
   "fact_topic": "Azure Data Factory",
   "fact": "Mapping Data Flows run on Spark clusters managed by ADF. They are visual and need no code, but each run pays for cluster start-up unless you set a TTL to keep it warm."
+ },
+ {
+  "date": "2026-11-18",
+  "kind": "Read of the day",
+  "source": "Medium",
+  "title": "Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection",
+  "url": "https://medium.com/towards-data-engineering/cost-based-optimizer-cbo-in-spark-statistics-cardinality-estimation-and-join-selection-c1db5da9a459",
+  "author": "Think Data",
+  "brief": "Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »",
+  "fact_topic": "Azure Data Factory",
+  "fact": "Parameterise linked services and datasets so one pipeline can load 100 tables from a metadata table, instead of building 100 pipelines."
  }
 ]
