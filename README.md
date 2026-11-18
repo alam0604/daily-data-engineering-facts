@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Interview question of the day
+### ✧ Read of the day
 
-**[Top 50 Apache Spark Interview Questions and Answers for Data Engineers](https://medium.com/@poojatripathi0697/top-50-apache-spark-interview-questions-and-answers-for-data-engineers-2f4428d1537a)** by Kaizen · *Medium*
+**[Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection](https://medium.com/towards-data-engineering/cost-based-optimizer-cbo-in-spark-statistics-cardinality-estimation-and-join-selection-c1db5da9a459)** by Think Data · *Medium*
 
-> A practical interview preparation guide based on my Data Engineering interview experiences Continue reading on Medium »
+> Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »
 
-**Quick fact (Azure Data Factory):** Mapping Data Flows run on Spark clusters managed by ADF. They are visual and need no code, but each run pays for cluster start-up unless you set a TTL to keep it warm.
+**Quick fact (Azure Data Factory):** Parameterise linked services and datasets so one pipeline can load 100 tables from a metadata table, instead of building 100 pipelines.
 
-<sub>updated 2026-11-17</sub>
+<sub>updated 2026-11-18</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-17-61717a.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-18-33d7da.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

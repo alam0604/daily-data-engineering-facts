@@ -46,5 +46,11 @@
   "url": "https://medium.com/@poojatripathi0697/top-50-apache-spark-interview-questions-and-answers-for-data-engineers-2f4428d1537a",
   "title": "Top 50 Apache Spark Interview Questions and Answers for Data Engineers",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-18",
+  "url": "https://medium.com/towards-data-engineering/cost-based-optimizer-cbo-in-spark-statistics-cardinality-estimation-and-join-selection-c1db5da9a459",
+  "title": "Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection",
+  "source": "Medium"
  }
 ]
