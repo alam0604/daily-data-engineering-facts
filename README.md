@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Read of the day
+### ✧ Interview question of the day
 
-**[Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection](https://medium.com/towards-data-engineering/cost-based-optimizer-cbo-in-spark-statistics-cardinality-estimation-and-join-selection-c1db5da9a459)** by Think Data · *Medium*
+**[Pyspark Coding Interview Question : Here's What Senior Data Engineers Actually Do](https://medium.com/h7w/pyspark-coding-interview-question-heres-what-senior-data-engineers-actually-do-a28131ea8272)** by Sriw World of Coding · *Medium*
 
-> Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »
+> You have a static Python dictionary with 195 country-to-continent mappings. You need to enrich a transactional dataset by mapping… Continue reading on T3CH »
 
-**Quick fact (Azure Data Factory):** Parameterise linked services and datasets so one pipeline can load 100 tables from a metadata table, instead of building 100 pipelines.
+**Quick fact (Azure Data Factory):** Use Key Vault linked services for secrets and a managed identity for authentication, so no passwords live in pipeline JSON.
 
-<sub>updated 2026-11-18</sub>
+<sub>updated 2026-11-19</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-18-33d7da.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-19-d507f0.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

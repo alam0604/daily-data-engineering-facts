@@ -2,11 +2,11 @@
   <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
     <stop offset="0" stop-color="#f5f0ff"/><stop offset="1" stop-color="#e6d9fc"/></linearGradient></defs>
   <rect x="0.5" y="0.5" width="999" height="182" rx="14" fill="url(#g)" stroke="#c4b0f5"/>
-  <text x="32" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">✧ READ OF THE DAY · MEDIUM</text>
-  <text x="968" y="34" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9b84c9">18 Nov 2026</text>
-  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#3b1a6b">Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection</text>
-  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8a6bbf">by Think Data</text>
+  <text x="32" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">✧ INTERVIEW QUESTION OF THE DAY · MEDIUM</text>
+  <text x="968" y="34" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9b84c9">19 Nov 2026</text>
+  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#3b1a6b">Pyspark Coding Interview Question : Here&#x27;s What Senior Data Engineers Actually Do</text>
+  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8a6bbf">by Sriw World of Coding</text>
   <line x1="32" y1="109" x2="968" y2="109" stroke="#b9a2ee"/>
   <text x="32" y="133" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">QUICK FACT · AZURE DATA FACTORY</text>
-  <text x="32" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">Parameterise linked services and datasets so one pipeline can load 100 tables from a metadata table, instead of building 100 pipelines.</text>
+  <text x="32" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">Use Key Vault linked services for secrets and a managed identity for authentication, so no passwords live in pipeline JSON.</text>
 </svg>

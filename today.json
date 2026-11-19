@@ -1,11 +1,11 @@
 {
- "date": "2026-11-18",
- "kind": "Read of the day",
+ "date": "2026-11-19",
+ "kind": "Interview question of the day",
  "source": "Medium",
- "title": "Cost-Based Optimizer (CBO) in Spark: Statistics, Cardinality Estimation, and Join Selection",
- "url": "https://medium.com/towards-data-engineering/cost-based-optimizer-cbo-in-spark-statistics-cardinality-estimation-and-join-selection-c1db5da9a459",
- "author": "Think Data",
- "brief": "Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »",
+ "title": "Pyspark Coding Interview Question : Here's What Senior Data Engineers Actually Do",
+ "url": "https://medium.com/h7w/pyspark-coding-interview-question-heres-what-senior-data-engineers-actually-do-a28131ea8272",
+ "author": "Sriw World of Coding",
+ "brief": "You have a static Python dictionary with 195 country-to-continent mappings. You need to enrich a transactional dataset by mapping… Continue reading on T3CH »",
  "fact_topic": "Azure Data Factory",
- "fact": "Parameterise linked services and datasets so one pipeline can load 100 tables from a metadata table, instead of building 100 pipelines."
+ "fact": "Use Key Vault linked services for secrets and a managed identity for authentication, so no passwords live in pipeline JSON."
 }
