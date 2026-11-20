@@ -58,5 +58,11 @@
   "url": "https://medium.com/h7w/pyspark-coding-interview-question-heres-what-senior-data-engineers-actually-do-a28131ea8272",
   "title": "Pyspark Coding Interview Question : Here's What Senior Data Engineers Actually Do",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-20",
+  "url": "https://dev.to/karanpulyala/spark-join-strategies-on-databricks-broadcast-sort-merge-shuffle-hash-and-what-aqe-changes-2knm",
+  "title": "Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes",
+  "source": "dev.to"
  }
 ]

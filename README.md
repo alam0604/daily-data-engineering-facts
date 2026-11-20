@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Interview question of the day
+### ✧ Read of the day
 
-**[Pyspark Coding Interview Question : Here's What Senior Data Engineers Actually Do](https://medium.com/h7w/pyspark-coding-interview-question-heres-what-senior-data-engineers-actually-do-a28131ea8272)** by Sriw World of Coding · *Medium*
+**[Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes](https://dev.to/karanpulyala/spark-join-strategies-on-databricks-broadcast-sort-merge-shuffle-hash-and-what-aqe-changes-2knm)** by Karan P · *dev.to*
 
-> You have a static Python dictionary with 195 country-to-continent mappings. You need to enrich a transactional dataset by mapping… Continue reading on T3CH »
+> Most slow PySpark jobs I've debugged weren't slow because of bad code. They were slow because Spark...
 
-**Quick fact (Azure Data Factory):** Use Key Vault linked services for secrets and a managed identity for authentication, so no passwords live in pipeline JSON.
+**Quick fact (Azure Data Factory):** Activity dependency conditions: Succeeded, Failed, Completed and Skipped. Combine them to build try/catch-style error handling in a pipeline.
 
-<sub>updated 2026-11-19</sub>
+<sub>updated 2026-11-20</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-19-d507f0.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-20-7a25e2.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
