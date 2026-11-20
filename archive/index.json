@@ -93,5 +93,16 @@
   "brief": "You have a static Python dictionary with 195 country-to-continent mappings. You need to enrich a transactional dataset by mapping… Continue reading on T3CH »",
   "fact_topic": "Azure Data Factory",
   "fact": "Use Key Vault linked services for secrets and a managed identity for authentication, so no passwords live in pipeline JSON."
+ },
+ {
+  "date": "2026-11-20",
+  "kind": "Read of the day",
+  "source": "dev.to",
+  "title": "Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes",
+  "url": "https://dev.to/karanpulyala/spark-join-strategies-on-databricks-broadcast-sort-merge-shuffle-hash-and-what-aqe-changes-2knm",
+  "author": "Karan P",
+  "brief": "Most slow PySpark jobs I've debugged weren't slow because of bad code. They were slow because Spark...",
+  "fact_topic": "Azure Data Factory",
+  "fact": "Activity dependency conditions: Succeeded, Failed, Completed and Skipped. Combine them to build try/catch-style error handling in a pipeline."
  }
 ]
