@@ -104,5 +104,16 @@
   "brief": "Most slow PySpark jobs I've debugged weren't slow because of bad code. They were slow because Spark...",
   "fact_topic": "Azure Data Factory",
   "fact": "Activity dependency conditions: Succeeded, Failed, Completed and Skipped. Combine them to build try/catch-style error handling in a pipeline."
+ },
+ {
+  "date": "2026-11-21",
+  "kind": "Interview question of the day",
+  "source": "dev.to",
+  "title": "Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About",
+  "url": "https://dev.to/karanpulyala/delta-lake-merge-in-pyspark-upserts-scd-type-2-and-the-traps-interviewers-ask-about-1d68",
+  "author": "Karan P",
+  "brief": "MERGE INTO is the workhorse of almost every Delta Lake pipeline on Azure Databricks. It's also one of...",
+  "fact_topic": "Azure Data Factory",
+  "fact": "Interview Q: Lookup vs Get Metadata? A: Lookup returns rows from a dataset (max 5,000 rows or 4 MB); Get Metadata returns properties such as childItems, size, lastModified or exists."
  }
 ]
