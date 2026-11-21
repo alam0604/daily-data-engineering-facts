@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Read of the day
+### ✧ Interview question of the day
 
-**[Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes](https://dev.to/karanpulyala/spark-join-strategies-on-databricks-broadcast-sort-merge-shuffle-hash-and-what-aqe-changes-2knm)** by Karan P · *dev.to*
+**[Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About](https://dev.to/karanpulyala/delta-lake-merge-in-pyspark-upserts-scd-type-2-and-the-traps-interviewers-ask-about-1d68)** by Karan P · *dev.to*
 
-> Most slow PySpark jobs I've debugged weren't slow because of bad code. They were slow because Spark...
+> MERGE INTO is the workhorse of almost every Delta Lake pipeline on Azure Databricks. It's also one of...
 
-**Quick fact (Azure Data Factory):** Activity dependency conditions: Succeeded, Failed, Completed and Skipped. Combine them to build try/catch-style error handling in a pipeline.
+**Quick fact (Azure Data Factory):** Interview Q: Lookup vs Get Metadata? A: Lookup returns rows from a dataset (max 5,000 rows or 4 MB); Get Metadata returns properties such as childItems, size, lastModified or exists.
 
-<sub>updated 2026-11-20</sub>
+<sub>updated 2026-11-21</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-20-7a25e2.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-21-97f045.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

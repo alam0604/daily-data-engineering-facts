@@ -64,5 +64,11 @@
   "url": "https://dev.to/karanpulyala/spark-join-strategies-on-databricks-broadcast-sort-merge-shuffle-hash-and-what-aqe-changes-2knm",
   "title": "Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes",
   "source": "dev.to"
+ },
+ {
+  "date": "2026-11-21",
+  "url": "https://dev.to/karanpulyala/delta-lake-merge-in-pyspark-upserts-scd-type-2-and-the-traps-interviewers-ask-about-1d68",
+  "title": "Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About",
+  "source": "dev.to"
  }
 ]
