@@ -1,10 +1,11 @@
 # ✧ Archive
 
-Every daily pick so far: **11** across **6** days.
+Every daily pick so far: **12** across **7** days.
 
 
 ## 2026-11
 
+- [2026-11-22](archive/2026/11/2026-11-22.md): Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime
 - [2026-11-21](archive/2026/11/2026-11-21.md): Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About
 - [2026-11-20](archive/2026/11/2026-11-20.md): Spark Join Strategies on Databricks: Broadcast, Sort-Merge, Shuffle Hash, and What AQE Changes
 - [2026-11-19](archive/2026/11/2026-11-19.md): Pyspark Coding Interview Question : Here's What Senior Data Engineers Actually Do

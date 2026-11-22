@@ -115,5 +115,16 @@
   "brief": "MERGE INTO is the workhorse of almost every Delta Lake pipeline on Azure Databricks. It's also one of...",
   "fact_topic": "Azure Data Factory",
   "fact": "Interview Q: Lookup vs Get Metadata? A: Lookup returns rows from a dataset (max 5,000 rows or 4 MB); Get Metadata returns properties such as childItems, size, lastModified or exists."
+ },
+ {
+  "date": "2026-11-22",
+  "kind": "Read of the day",
+  "source": "Medium",
+  "title": "Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime",
+  "url": "https://medium.com/towards-data-engineering/adaptive-query-execution-aqe-how-spark-re-optimizes-queries-at-runtime-dd99a4bc767f",
+  "author": "Think Data",
+  "brief": "Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »",
+  "fact_topic": "Microsoft Fabric",
+  "fact": "OneLake is Fabric's single tenant-wide data lake ('OneDrive for data'). Every workspace and item stores its data there, in Delta Parquet by default."
  }
 ]
