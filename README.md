@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Interview question of the day
+### ✧ Read of the day
 
-**[Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About](https://dev.to/karanpulyala/delta-lake-merge-in-pyspark-upserts-scd-type-2-and-the-traps-interviewers-ask-about-1d68)** by Karan P · *dev.to*
+**[Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime](https://medium.com/towards-data-engineering/adaptive-query-execution-aqe-how-spark-re-optimizes-queries-at-runtime-dd99a4bc767f)** by Think Data · *Medium*
 
-> MERGE INTO is the workhorse of almost every Delta Lake pipeline on Azure Databricks. It's also one of...
+> Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »
 
-**Quick fact (Azure Data Factory):** Interview Q: Lookup vs Get Metadata? A: Lookup returns rows from a dataset (max 5,000 rows or 4 MB); Get Metadata returns properties such as childItems, size, lastModified or exists.
+**Quick fact (Microsoft Fabric):** OneLake is Fabric's single tenant-wide data lake ('OneDrive for data'). Every workspace and item stores its data there, in Delta Parquet by default.
 
-<sub>updated 2026-11-21</sub>
+<sub>updated 2026-11-22</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-21-97f045.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-22-6ad7f7.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

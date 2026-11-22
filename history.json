@@ -70,5 +70,11 @@
   "url": "https://dev.to/karanpulyala/delta-lake-merge-in-pyspark-upserts-scd-type-2-and-the-traps-interviewers-ask-about-1d68",
   "title": "Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About",
   "source": "dev.to"
+ },
+ {
+  "date": "2026-11-22",
+  "url": "https://medium.com/towards-data-engineering/adaptive-query-execution-aqe-how-spark-re-optimizes-queries-at-runtime-dd99a4bc767f",
+  "title": "Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime",
+  "source": "Medium"
  }
 ]
