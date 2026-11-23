@@ -1,11 +1,11 @@
 {
- "date": "2026-11-22",
- "kind": "Read of the day",
+ "date": "2026-11-23",
+ "kind": "Interview question of the day",
  "source": "Medium",
- "title": "Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime",
- "url": "https://medium.com/towards-data-engineering/adaptive-query-execution-aqe-how-spark-re-optimizes-queries-at-runtime-dd99a4bc767f",
- "author": "Think Data",
- "brief": "Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »",
+ "title": "Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare",
+ "url": "https://medium.com/@trivajay259/databricks-ai-engineer-interview-experience-2026-5-rounds-real-questions-and-how-to-prepare-72ed7edd1df0",
+ "author": "Ajay Kumar",
+ "brief": "From Python, SQL, and Apache Spark to production-grade RAG, Agentic AI, system design, and customer problem-solving — what candidates… Continue reading on Medium »",
  "fact_topic": "Microsoft Fabric",
- "fact": "OneLake is Fabric's single tenant-wide data lake ('OneDrive for data'). Every workspace and item stores its data there, in Delta Parquet by default."
+ "fact": "Shortcuts in OneLake point to data in ADLS Gen2, S3, GCS or other workspaces without copying it. Engines read it as if it were local."
 }

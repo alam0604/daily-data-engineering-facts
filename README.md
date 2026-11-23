@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Read of the day
+### ✧ Interview question of the day
 
-**[Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime](https://medium.com/towards-data-engineering/adaptive-query-execution-aqe-how-spark-re-optimizes-queries-at-runtime-dd99a4bc767f)** by Think Data · *Medium*
+**[Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare](https://medium.com/@trivajay259/databricks-ai-engineer-interview-experience-2026-5-rounds-real-questions-and-how-to-prepare-72ed7edd1df0)** by Ajay Kumar · *Medium*
 
-> Two Spark queries can return exactly the same result. Continue reading on Towards Data Engineering »
+> From Python, SQL, and Apache Spark to production-grade RAG, Agentic AI, system design, and customer problem-solving — what candidates… Continue reading on Medium »
 
-**Quick fact (Microsoft Fabric):** OneLake is Fabric's single tenant-wide data lake ('OneDrive for data'). Every workspace and item stores its data there, in Delta Parquet by default.
+**Quick fact (Microsoft Fabric):** Shortcuts in OneLake point to data in ADLS Gen2, S3, GCS or other workspaces without copying it. Engines read it as if it were local.
 
-<sub>updated 2026-11-22</sub>
+<sub>updated 2026-11-23</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-22-6ad7f7.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-23-adf240.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
