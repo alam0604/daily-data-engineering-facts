@@ -1,10 +1,11 @@
 # ✧ Archive
 
-Every daily pick so far: **13** across **8** days.
+Every daily pick so far: **14** across **9** days.
 
 
 ## 2026-11
 
+- [2026-11-24](archive/2026/11/2026-11-24.md): PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts
 - [2026-11-23](archive/2026/11/2026-11-23.md): Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare
 - [2026-11-22](archive/2026/11/2026-11-22.md): Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime
 - [2026-11-21](archive/2026/11/2026-11-21.md): Delta Lake MERGE in PySpark: Upserts, SCD Type 2, and the Traps Interviewers Ask About

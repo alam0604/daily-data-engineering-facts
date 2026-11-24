@@ -137,5 +137,16 @@
   "brief": "From Python, SQL, and Apache Spark to production-grade RAG, Agentic AI, system design, and customer problem-solving — what candidates… Continue reading on Medium »",
   "fact_topic": "Microsoft Fabric",
   "fact": "Shortcuts in OneLake point to data in ADLS Gen2, S3, GCS or other workspaces without copying it. Engines read it as if it were local."
+ },
+ {
+  "date": "2026-11-24",
+  "kind": "Read of the day",
+  "source": "dev.to",
+  "title": "PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts",
+  "url": "https://dev.to/karanpulyala/pyspark-caching-on-azure-databricks-cache-vs-persist-vs-checkpoint-the-disk-cache-and-when-n13",
+  "author": "Karan P",
+  "brief": "\"Should I cache this DataFrame?\" is one of those questions that sounds simple in an interview and...",
+  "fact_topic": "Microsoft Fabric",
+  "fact": "Lakehouse vs Warehouse in Fabric: Lakehouse is Spark-first (notebooks, files + tables, read-only SQL endpoint); Warehouse is T-SQL-first with full DML and multi-table transactions."
  }
 ]
