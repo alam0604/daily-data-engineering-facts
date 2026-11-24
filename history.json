@@ -82,5 +82,11 @@
   "url": "https://medium.com/@trivajay259/databricks-ai-engineer-interview-experience-2026-5-rounds-real-questions-and-how-to-prepare-72ed7edd1df0",
   "title": "Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-24",
+  "url": "https://dev.to/karanpulyala/pyspark-caching-on-azure-databricks-cache-vs-persist-vs-checkpoint-the-disk-cache-and-when-n13",
+  "title": "PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts",
+  "source": "dev.to"
  }
 ]

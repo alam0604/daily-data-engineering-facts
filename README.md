@@ -8,20 +8,20 @@ Updated automatically by GitHub Actions at 06:00 IST.
 ## Today's pick
 
 <!-- FACT:START -->
-### ✧ Interview question of the day
+### ✧ Read of the day
 
-**[Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare](https://medium.com/@trivajay259/databricks-ai-engineer-interview-experience-2026-5-rounds-real-questions-and-how-to-prepare-72ed7edd1df0)** by Ajay Kumar · *Medium*
+**[PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts](https://dev.to/karanpulyala/pyspark-caching-on-azure-databricks-cache-vs-persist-vs-checkpoint-the-disk-cache-and-when-n13)** by Karan P · *dev.to*
 
-> From Python, SQL, and Apache Spark to production-grade RAG, Agentic AI, system design, and customer problem-solving — what candidates… Continue reading on Medium »
+> "Should I cache this DataFrame?" is one of those questions that sounds simple in an interview and...
 
-**Quick fact (Microsoft Fabric):** Shortcuts in OneLake point to data in ADLS Gen2, S3, GCS or other workspaces without copying it. Engines read it as if it were local.
+**Quick fact (Microsoft Fabric):** Lakehouse vs Warehouse in Fabric: Lakehouse is Spark-first (notebooks, files + tables, read-only SQL endpoint); Warehouse is T-SQL-first with full DML and multi-table transactions.
 
-<sub>updated 2026-11-23</sub>
+<sub>updated 2026-11-24</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-23-adf240.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-24-3d1dff.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
