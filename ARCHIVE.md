@@ -1,10 +1,11 @@
 # ✧ Archive
 
-Every daily pick so far: **14** across **9** days.
+Every daily pick so far: **15** across **10** days.
 
 
 ## 2026-11
 
+- [2026-11-25](archive/2026/11/2026-11-25.md): Apache Spark Architecture: Driver, Executors and DAG
 - [2026-11-24](archive/2026/11/2026-11-24.md): PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts
 - [2026-11-23](archive/2026/11/2026-11-23.md): Databricks AI Engineer Interview Experience (2026): 5 Rounds, Real Questions, and How to Prepare
 - [2026-11-22](archive/2026/11/2026-11-22.md): Adaptive Query Execution (AQE): How Spark Re-Optimizes Queries at Runtime
