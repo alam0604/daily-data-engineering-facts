@@ -88,5 +88,11 @@
   "url": "https://dev.to/karanpulyala/pyspark-caching-on-azure-databricks-cache-vs-persist-vs-checkpoint-the-disk-cache-and-when-n13",
   "title": "PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts",
   "source": "dev.to"
+ },
+ {
+  "date": "2026-11-25",
+  "url": "https://dev.to/sahilta84047110/apache-spark-architecture-driver-executors-and-dag-274i",
+  "title": "Apache Spark Architecture: Driver, Executors and DAG",
+  "source": "dev.to"
  }
 ]

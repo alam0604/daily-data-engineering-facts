@@ -10,18 +10,18 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts](https://dev.to/karanpulyala/pyspark-caching-on-azure-databricks-cache-vs-persist-vs-checkpoint-the-disk-cache-and-when-n13)** by Karan P · *dev.to*
+**[Apache Spark Architecture: Driver, Executors and DAG](https://dev.to/sahilta84047110/apache-spark-architecture-driver-executors-and-dag-274i)** by Sahil Taneja · *dev.to*
 
-> "Should I cache this DataFrame?" is one of those questions that sounds simple in an interview and...
+> Apache Spark architecture has three parts: a driver that plans the work, a cluster manager that hands...
 
-**Quick fact (Microsoft Fabric):** Lakehouse vs Warehouse in Fabric: Lakehouse is Spark-first (notebooks, files + tables, read-only SQL endpoint); Warehouse is T-SQL-first with full DML and multi-table transactions.
+**Quick fact (Microsoft Fabric):** Direct Lake mode lets Power BI semantic models read Delta tables in OneLake directly: near-Import speed without scheduled refresh copies.
 
-<sub>updated 2026-11-24</sub>
+<sub>updated 2026-11-25</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-24-3d1dff.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-25-950a04.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 
