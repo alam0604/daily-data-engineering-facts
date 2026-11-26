@@ -94,5 +94,11 @@
   "url": "https://dev.to/sahilta84047110/apache-spark-architecture-driver-executors-and-dag-274i",
   "title": "Apache Spark Architecture: Driver, Executors and DAG",
   "source": "dev.to"
+ },
+ {
+  "date": "2026-11-26",
+  "url": "https://medium.com/h7w/sparks-catalyst-optimizer-vs-tungsten-execution-engine-the-brain-and-the-brawn-behind-apache-d40725f31559",
+  "title": "Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…",
+  "source": "Medium"
  }
 ]
