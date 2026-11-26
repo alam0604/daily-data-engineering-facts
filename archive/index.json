@@ -159,5 +159,16 @@
   "brief": "Apache Spark architecture has three parts: a driver that plans the work, a cluster manager that hands...",
   "fact_topic": "Microsoft Fabric",
   "fact": "Direct Lake mode lets Power BI semantic models read Delta tables in OneLake directly: near-Import speed without scheduled refresh copies."
+ },
+ {
+  "date": "2026-11-26",
+  "kind": "Read of the day",
+  "source": "Medium",
+  "title": "Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…",
+  "url": "https://medium.com/h7w/sparks-catalyst-optimizer-vs-tungsten-execution-engine-the-brain-and-the-brawn-behind-apache-d40725f31559",
+  "author": "Sriw World of Coding",
+  "brief": "If you’ve ever wondered why Apache Spark is so blazing fast — and where exactly that magic happens — this article is for you. Continue reading on T3CH »",
+  "fact_topic": "Microsoft Fabric",
+  "fact": "V-Order is a Fabric write-time optimisation for Parquet (special sorting, encoding and compression). Files stay standard Parquet but load faster in Power BI and SQL engines."
  }
 ]
