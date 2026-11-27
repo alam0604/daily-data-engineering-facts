@@ -170,5 +170,16 @@
   "brief": "If you’ve ever wondered why Apache Spark is so blazing fast — and where exactly that magic happens — this article is for you. Continue reading on T3CH »",
   "fact_topic": "Microsoft Fabric",
   "fact": "V-Order is a Fabric write-time optimisation for Parquet (special sorting, encoding and compression). Files stay standard Parquet but load faster in Power BI and SQL engines."
+ },
+ {
+  "date": "2026-11-27",
+  "kind": "Read of the day",
+  "source": "Medium",
+  "title": "Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire",
+  "url": "https://chandra-prakash.medium.com/why-tuning-maxpartitionbytes-to-fix-sparks-small-files-problem-can-silently-backfire-f3fa3228f621",
+  "author": "Chandra Prakash",
+  "brief": "Continue reading on Medium »",
+  "fact_topic": "Microsoft Fabric",
+  "fact": "Fabric capacities are measured in Capacity Units (F2 to F2048). All workloads, from Spark to Power BI, draw from the same capacity, and smoothing spreads bursts over time."
  }
 ]

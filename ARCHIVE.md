@@ -1,10 +1,11 @@
 # ✧ Archive
 
-Every daily pick so far: **16** across **11** days.
+Every daily pick so far: **17** across **12** days.
 
 
 ## 2026-11
 
+- [2026-11-27](archive/2026/11/2026-11-27.md): Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire
 - [2026-11-26](archive/2026/11/2026-11-26.md): Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…
 - [2026-11-25](archive/2026/11/2026-11-25.md): Apache Spark Architecture: Driver, Executors and DAG
 - [2026-11-24](archive/2026/11/2026-11-24.md): PySpark Caching on Azure Databricks: cache() vs persist() vs checkpoint(), the Disk Cache, and When Caching Hurts
