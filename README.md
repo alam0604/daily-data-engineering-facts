@@ -10,18 +10,18 @@ Updated automatically by GitHub Actions at 06:00 IST.
 <!-- FACT:START -->
 ### ✧ Read of the day
 
-**[Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…](https://medium.com/h7w/sparks-catalyst-optimizer-vs-tungsten-execution-engine-the-brain-and-the-brawn-behind-apache-d40725f31559)** by Sriw World of Coding · *Medium*
+**[Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire](https://chandra-prakash.medium.com/why-tuning-maxpartitionbytes-to-fix-sparks-small-files-problem-can-silently-backfire-f3fa3228f621)** by Chandra Prakash · *Medium*
 
-> If you’ve ever wondered why Apache Spark is so blazing fast — and where exactly that magic happens — this article is for you. Continue reading on T3CH »
+> Continue reading on Medium »
 
-**Quick fact (Microsoft Fabric):** V-Order is a Fabric write-time optimisation for Parquet (special sorting, encoding and compression). Files stay standard Parquet but load faster in Power BI and SQL engines.
+**Quick fact (Microsoft Fabric):** Fabric capacities are measured in Capacity Units (F2 to F2048). All workloads, from Spark to Power BI, draw from the same capacity, and smoothing spreads bursts over time.
 
-<sub>updated 2026-11-26</sub>
+<sub>updated 2026-11-27</sub>
 <!-- FACT:END -->
 
 ## As a card
 
-<img src="./cards/2026-11-26-f4903e.svg" alt="Today's data engineering pick" width="100%"/>
+<img src="./cards/2026-11-27-dcc57b.svg" alt="Today's data engineering pick" width="100%"/>
 
 Embed it anywhere (e.g. your profile README):
 

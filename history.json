@@ -100,5 +100,11 @@
   "url": "https://medium.com/h7w/sparks-catalyst-optimizer-vs-tungsten-execution-engine-the-brain-and-the-brawn-behind-apache-d40725f31559",
   "title": "Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-27",
+  "url": "https://chandra-prakash.medium.com/why-tuning-maxpartitionbytes-to-fix-sparks-small-files-problem-can-silently-backfire-f3fa3228f621",
+  "title": "Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire",
+  "source": "Medium"
  }
 ]
