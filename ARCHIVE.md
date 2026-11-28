@@ -1,10 +1,11 @@
 # ✧ Archive
 
-Every daily pick so far: **17** across **12** days.
+Every daily pick so far: **18** across **13** days.
 
 
 ## 2026-11
 
+- [2026-11-28](archive/2026/11/2026-11-28.md): Catalyst Optimizer in Apache Spark: The Compiler Behind Every DataFrame Query
 - [2026-11-27](archive/2026/11/2026-11-27.md): Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire
 - [2026-11-26](archive/2026/11/2026-11-26.md): Spark’s Catalyst Optimizer vs Tungsten Execution Engine: The Brain and the Brawn Behind Apache…
 - [2026-11-25](archive/2026/11/2026-11-25.md): Apache Spark Architecture: Driver, Executors and DAG
