@@ -1,11 +1,11 @@
 {
- "date": "2026-11-27",
+ "date": "2026-11-28",
  "kind": "Read of the day",
  "source": "Medium",
- "title": "Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire",
- "url": "https://chandra-prakash.medium.com/why-tuning-maxpartitionbytes-to-fix-sparks-small-files-problem-can-silently-backfire-f3fa3228f621",
- "author": "Chandra Prakash",
- "brief": "Continue reading on Medium »",
+ "title": "Catalyst Optimizer in Apache Spark: The Compiler Behind Every DataFrame Query",
+ "url": "https://medium.com/towards-data-engineering/catalyst-optimizer-in-apache-spark-the-compiler-behind-every-dataframe-query-18987859c2da",
+ "author": "Think Data",
+ "brief": "Most Spark developers know Catalyst as: Continue reading on Towards Data Engineering »",
  "fact_topic": "Microsoft Fabric",
- "fact": "Fabric capacities are measured in Capacity Units (F2 to F2048). All workloads, from Spark to Power BI, draw from the same capacity, and smoothing spreads bursts over time."
+ "fact": "Fabric Data Factory = Data pipelines (the ADF-style orchestrator) plus Dataflow Gen2 (Power Query-based transformations that can write to Lakehouse or Warehouse)."
 }

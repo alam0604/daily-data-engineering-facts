@@ -3,11 +3,11 @@
     <stop offset="0" stop-color="#f5f0ff"/><stop offset="1" stop-color="#e6d9fc"/></linearGradient></defs>
   <rect x="0.5" y="0.5" width="999" height="202" rx="14" fill="url(#g)" stroke="#c4b0f5"/>
   <text x="32" y="34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">✧ READ OF THE DAY · MEDIUM</text>
-  <text x="968" y="34" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9b84c9">27 Nov 2026</text>
-  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#3b1a6b">Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire</text>
-  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8a6bbf">by Chandra Prakash</text>
+  <text x="968" y="34" text-anchor="end" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" fill="#9b84c9">28 Nov 2026</text>
+  <text x="32" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="600" fill="#3b1a6b">Catalyst Optimizer in Apache Spark: The Compiler Behind Every DataFrame Query</text>
+  <text x="32" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" fill="#8a6bbf">by Think Data</text>
   <line x1="32" y1="109" x2="968" y2="109" stroke="#b9a2ee"/>
   <text x="32" y="133" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#8b5cf6" letter-spacing="1.5">QUICK FACT · MICROSOFT FABRIC</text>
-  <text x="32" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">Fabric capacities are measured in Capacity Units (F2 to F2048). All workloads, from Spark to Power BI, draw from the same capacity, and</text>
-  <text x="32" y="175" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">smoothing spreads bursts over time.</text>
+  <text x="32" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">Fabric Data Factory = Data pipelines (the ADF-style orchestrator) plus Dataflow Gen2 (Power Query-based transformations that can write to</text>
+  <text x="32" y="175" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" fill="#4c2a85">Lakehouse or Warehouse).</text>
 </svg>

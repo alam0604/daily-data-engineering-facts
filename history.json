@@ -106,5 +106,11 @@
   "url": "https://chandra-prakash.medium.com/why-tuning-maxpartitionbytes-to-fix-sparks-small-files-problem-can-silently-backfire-f3fa3228f621",
   "title": "Why Tuning maxPartitionBytes to Fix Spark’s Small Files Problem Can Silently Backfire",
   "source": "Medium"
+ },
+ {
+  "date": "2026-11-28",
+  "url": "https://medium.com/towards-data-engineering/catalyst-optimizer-in-apache-spark-the-compiler-behind-every-dataframe-query-18987859c2da",
+  "title": "Catalyst Optimizer in Apache Spark: The Compiler Behind Every DataFrame Query",
+  "source": "Medium"
  }
 ]
